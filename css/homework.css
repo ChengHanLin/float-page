@@ -1,0 +1,108 @@
+.wrap{
+	width: 800px;
+	margin: 0 auto;
+	background: #FFF;
+}
+
+.header{
+	height: 102px;
+	border-bottom: 2px solid gray;
+	background: #FFF;
+}
+
+.logo{
+	float: left;
+	display: block;
+	padding-right: 15px;
+	padding-left: 2px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.menu li{
+	float: left;
+	list-style-type: none;
+}
+
+.menu li a{
+	display: block;
+	width: 95px;
+	padding-top: 2px;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #00BBFF;
+}
+
+.menu li img{
+	margin: 0 auto;
+}
+
+.content{
+	height: 250px;
+	background: #FFF; 
+	border-bottom: 1px solid #DCDCDC;
+}
+
+.words{
+	width: 480px;
+	margin: 10px;
+	float: left;
+}
+h1{
+	color: #00BBFF;
+	line-height: 1;
+}
+
+h1 a:visited{
+	color: #00BBFF;
+}
+
+.picture{
+	width: 300px;
+	float: left;
+}
+
+.picture img{
+	float: left;
+	padding-top: 50px;
+	padding-left: 30px;	
+	padding-right: 30px;
+}
+
+.bottom{
+	background: #E0FFFF;
+	margin-top: 5px;
+}
+
+.bottom a{
+	text-decoration: none;
+}
+
+.box{
+	border-radius: 10px;
+	border: 1px solid #BBFFEE; 
+	width: 248px;
+	height: 400px;
+	margin: 3px;
+	padding-left: 10px;
+	float: left;
+	/*背景漸層*/
+    background: -webkit-linear-gradient(#FFF,#BBFFEE);
+    background: -o-linear-gradient(#FFF,#BBFFEE);
+    background: -moz-linear-gradient(#FFF,#BBFFEE);
+    background: linear-gradient(#FFF,#BBFFEE);
+}
+
+.box img{
+	padding-top: 5px;
+	padding-left: 40px;
+}
+
+h2{
+	color: gray;
+	text-align: center;
+}
